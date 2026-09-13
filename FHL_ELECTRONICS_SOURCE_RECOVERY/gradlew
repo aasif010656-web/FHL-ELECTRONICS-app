@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+# Gradle launcher. If the official Gradle wrapper JAR is absent, use an installed Gradle or run `gradle wrapper` once.
+exec gradle "$@"

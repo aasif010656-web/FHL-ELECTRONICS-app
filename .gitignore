@@ -1,0 +1,32 @@
+# Local dependencies and build output
+node_modules/
+.gradle/
+**/build/
+**/.gradle/
+
+# Local Android and signing material
+*.apk
+*.aab
+*.keystore
+*.jks
+*.p12
+local.properties
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+**/google-services.json
+**/service-account*.json
+**/*secret*.*
+**/*credentials*.*
+
+# IDE and OS files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local reports and temporary files
+*.log
+reports/
